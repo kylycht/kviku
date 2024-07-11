@@ -6,7 +6,7 @@ If you intend to run application as standalone service, you can run master node 
 
 ```bash
 cd cmd/master
-go run main.go --listenAddr :8080
+go run main.go --listenAddr :8080 --slaveAddr=0.0.0.0:9000
 ```
 
 ### Running application w/ replica node
